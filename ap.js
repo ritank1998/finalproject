@@ -45,6 +45,6 @@ res.innerHTML =`<tr style="background-color:blue; color:white; font-weight:700">
 <td>${change}</td>
 </tr>`
 
-upd = setTimeout(()=>fetchPrice(ctype),10000);
+upd = setTimeout(()=>fetchPrice(ctype),1000);
 
 }
